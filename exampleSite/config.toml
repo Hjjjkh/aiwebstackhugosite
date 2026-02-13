@@ -1,0 +1,55 @@
+baseURL               = "/"
+languageCode          = "zh-CN"
+title                 = "AI 工具导航 - 发现最好的 AI 工具与服务"
+theme                 = "WebStack-Hugo"
+preserveTaxonomyNames = true
+disablePathToLower    = true
+hasCJKLanguage        = true
+publishDir            = "public"
+
+
+[params]
+     author        = "AI Tools Navigator"
+     description   = "专业的 AI 工具导航平台，收录最新最好的人工智能工具，包括智能对话、内容生成、办公助手、自动化 Agents 等。帮助用户快速发现和使用 AI 工具。"
+     upload        = ""
+     about         = "about"
+     repository    = ""
+     enablePreLoad = true
+     textPreLoad   = "AI 工具导航"
+     expandSidebar = false
+     logosPath     = "assets/images"
+     defaultLogo   = "assets/images/default.webp"
+     nightMode     = false
+     yiyan         = false
+     fancybox      = true
+
+[params.seo]
+    baiduhmid       = ''		# 百度统计 hm.src 的 ID
+    baiduSiteVer    = ''		# 百度HTML标签验证(baidu-site-verification)
+    tj51laid        = ''                    # 51.LA 网站统计
+    tj51lack        = ''
+    GoogleAdsClient = ''
+
+[params.ads]
+    enableAds       = true					# 是否启用广告
+    homepageBanner  = true					# 首页横幅广告
+    categoryPage    = true					# 分类页广告
+    detailPage      = true					# 详情页广告
+
+[params.qweather]
+    key = ""
+
+[params.images]
+    favicon           = "assets/images/bi-favicon.png"
+    searchImageL      = "assets/images/bg-dna.jpg"
+    searchImageD      = "assets/images/bg-dna.jpg"
+    logoExpandLight   = "assets/images/bi-expand-dark.png"
+    logoExpandDark    = "assets/images/bi-expand-light.png"
+    logoCollapseLight = "assets/images/bi.png"
+    logoCollapseDark  = "assets/images/bi.png"
+    
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.footer]
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：your-email@example.com <br/>&copy; 2025 - {year} By [AI Tools Navigator](https://github.com/your-username/ai-tools-nav) | 专注于 AI 工具发现与推荐<br/>'
