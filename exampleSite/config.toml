@@ -13,12 +13,12 @@ publishDir            = "public"
      description   = "专业的 AI 工具导航平台，收录最新最好的人工智能工具，包括智能对话、内容生成、办公助手、自动化 Agents 等。帮助用户快速发现和使用 AI 工具。"
      upload        = ""
      about         = "about"
-     repository    = ""
+     repository    = "https://github.com/Hjjjkh/aiwebstackhugosite"
      enablePreLoad = true
      textPreLoad   = "AI 工具导航"
      expandSidebar = false
-     logosPath     = "assets/images"
-     defaultLogo   = "assets/images/default.webp"
+      logosPath     = "static/assets/images/logos"
+      defaultLogo   = "static/assets/images/default.webp"
      nightMode     = false
      yiyan         = false
      fancybox      = true
@@ -52,4 +52,4 @@ publishDir            = "public"
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：your-email@example.com <br/>&copy; 2025 - {year} By [AI Tools Navigator](https://github.com/your-username/ai-tools-nav) | 专注于 AI 工具发现与推荐<br/>'
+     copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：hjjjkh@github.com <br/>&copy; 2025 - {year} By [AI Tools Navigator](https://github.com/Hjjjkh/aiwebstackhugosite) | 专注于 AI 工具发现与推荐<br/>'
