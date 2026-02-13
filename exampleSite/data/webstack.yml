@@ -1,1 +1,460 @@
 ---
+- taxonomy: 大语言模型
+  icon: fas fa-robot fa-lg
+  list:
+    - term: 对话模型
+      links:
+        - title: ChatGPT
+          logo: chatgpt.png
+          url: https://chat.openai.com/
+          description: OpenAI 开发的强大对话式 AI 模型
+        - title: Claude
+          logo: claude.png
+          url: https://claude.ai/
+          description: Anthropic 开发的 AI 助手，擅长分析和写作
+        - title: 文心一言
+          logo: wenxin.png
+          url: https://yiyan.baidu.com/
+          description: 百度推出的大语言模型
+        - title: 通义千问
+          logo: tongyi.png
+          url: https://qianwen.aliyun.com/
+          description: 阿里云打造的大语言模型
+        - title: 智谱清言
+          logo: zhipu.png
+          url: https://chatglm.cn/
+          description: 智谱 AI 推出的对话模型
+    - term: 开源模型
+      links:
+        - title: LLaMA
+          logo: llama.png
+          url: https://llama.meta.com/
+          description: Meta 开源的大语言模型系列
+        - title: Qwen
+          logo: qwen.png
+          url: https://github.com/Qwen/Qwen
+          description: 阿里开源的通义千问系列
+        - title: Mistral
+          logo: mistral.png
+          url: https://mistral.ai/
+          description: Mistral AI 开源的高性能模型
+        - title: Yi
+          logo: yi.png
+          url: https://01.ai/
+          description: 零一万物开源的 Yi 系列
+
+- taxonomy: AI 图像生成
+  icon: fas fa-image fa-lg
+  list:
+    - term: 文生图
+      links:
+        - title: Midjourney
+          logo: midjourney.png
+          url: https://www.midjourney.com/
+          description: 顶尖的 AI 图像生成工具
+        - title: Stable Diffusion
+          logo: stable-diffusion.png
+          url: https://stability.ai/
+          description: 开源的高质量图像生成模型
+        - title: DALL-E
+          logo: dalle.png
+          url: https://openai.com/dall-e-3
+          description: OpenAI 推出的图像生成模型
+        - title: 文心一格
+          logo: wenxinyige.png
+          url: https://yige.baidu.com/
+          description: 百度推出的 AI 绘画工具
+        - title: 通义万相
+          logo: tongyixiang.png
+          url: https://wanxiang.aliyun.com/
+          description: 阿里云推出的 AI 绘画平台
+    - term: 图片编辑
+      links:
+        - title: Photoshop AI
+          logo: photoshop.png
+          url: https://www.adobe.com/cn/products/photoshop.html
+          description: Adobe 集成 AI 功能的图像编辑软件
+        - title: Remove.bg
+          logo: removebg.png
+          url: https://www.remove.bg/
+          description: AI 自动去除图片背景
+        - title: Magnific AI
+          logo: magnific.png
+          url: https://magnific.ai/
+          description: AI 图片放大和增强
+
+- taxonomy: AI 写作助手
+  icon: fas fa-pen-fancy fa-lg
+  list:
+    - term: 内容创作
+      links:
+        - title: Jasper
+          logo: jasper.png
+          url: https://www.jasper.ai/
+          description: 专业的 AI 营销文案生成工具
+        - title: Copy.ai
+          logo: copyai.png
+          url: https://www.copy.ai/
+          description: 快速生成营销文案和创意内容
+        - title: Writesonic
+          logo: writesonic.png
+          url: https://writesonic.com/
+          description: 多功能 AI 写作助手
+        - title: 秘塔写作猫
+          logo: xiezuo.png
+          url: https://xiezuocat.com/
+          description: 国产 AI 写作工具
+    - term: 文档处理
+      links:
+        - title: Notion AI
+          logo: notion.png
+          url: https://www.notion.so/product/ai
+          description: 集成在 Notion 中的 AI 写作助手
+        - title: Grammarly
+          logo: grammarly.png
+          url: https://www.grammarly.com/
+          description: AI 语法检查和写作建议
+        - title: WPS AI
+          logo: wps.png
+          url: https://ai.wps.cn/
+          description: WPS 集成的 AI 办公助手
+
+- taxonomy: AI 编程助手
+  icon: fas fa-code fa-lg
+  list:
+    - term: 代码生成
+      links:
+        - title: GitHub Copilot
+          logo: github.png
+          url: https://github.com/features/copilot
+          description: GitHub 与 OpenAI 合作的 AI 编程助手
+        - title: Cursor
+          logo: cursor.png
+          url: https://cursor.sh/
+          description: AI 原生代码编辑器
+        - title: Tabnine
+          logo: tabnine.png
+          url: https://www.tabnine.com/
+          description: AI 代码补全工具
+        - title: Codeium
+          logo: codeium.png
+          url: https://codeium.com/
+          description: 免费的 AI 编程助手
+        - title: 通义灵码
+          logo: tongyiling.png
+          url: https://tongyi.aliyun.com/lingma
+          description: 阿里云推出的 AI 编程助手
+    - term: 代码审查
+      links:
+        - title: CodeGeeX
+          logo: codegeex.png
+          url: https://codegeex.cn/
+          description: 智谱 AI 推出的代码生成与审查工具
+        - title: DeepCode
+          logo: deepcode.png
+          url: https://www.deepcode.ai/
+          description: AI 代码审查和错误检测
+
+- taxonomy: AI 视频生成
+  icon: fas fa-video fa-lg
+  list:
+    - term: 文生视频
+      links:
+        - title: Sora
+          logo: sora.png
+          url: https://openai.com/sora
+          description: OpenAI 推出的文生视频模型
+        - title: Runway
+          logo: runway.png
+          url: https://runwayml.com/
+          description: AI 视频生成和编辑平台
+        - title: Pika Labs
+          logo: pika.png
+          url: https://pika.art/
+          description: AI 短视频生成工具
+        - title: 可灵 AI
+          logo: kelin.png
+          url: https://klingai.com/
+          description: 快手推出的 AI 视频生成平台
+    - term: 视频编辑
+      links:
+        - title: 剪映 AI
+          logo: jianying.png
+          url: https://www.capcut.cn/
+          description: 抖音推出的智能视频剪辑工具
+        - title: Synthesia
+          logo: synthesia.png
+          url: https://www.synthesia.io/
+          description: AI 虚拟人视频生成
+
+- taxonomy: AI 音频与语音
+  icon: fas fa-microphone fa-lg
+  list:
+    - term: 文字转语音
+      links:
+        - title: ElevenLabs
+          logo: elevenlabs.png
+          url: https://elevenlabs.io/
+          description: 高质量 AI 语音合成
+        - title: Azure TTS
+          logo: azure.png
+          url: https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/
+          description: 微软 Azure 语音服务
+        - title: 鱼羊语音
+          logo: yuyang.png
+          url: https://www.yuyangtts.com/
+          description: 国产 AI 语音合成平台
+    - term: 语音识别
+      links:
+        - title: Whisper
+          logo: whisper.png
+          url: https://openai.com/research/whisper
+          description: OpenAI 开源的语音识别模型
+        - title: 飞书妙记
+          logo: feishu.png
+          url: https://www.feishu.cn/product/minutes
+          description: 飞书智能会议记录
+
+- taxonomy: AI 办公助手
+  icon: fas fa-briefcase fa-lg
+  list:
+    - term: 会议助手
+      links:
+        - title: Otter.ai
+          logo: otter.png
+          url: https://otter.ai/
+          description: AI 会议记录和转录
+        - title: 飞书智能伙伴
+          logo: feishu.png
+          url: https://www.feishu.cn/
+          description: 飞书集成的 AI 办公助手
+        - title: 腾讯会议 AI
+          logo: tencent.png
+          url: https://meeting.tencent.com/
+          description: 腾讯会议智能会议功能
+    - term: 数据分析
+      links:
+        - title: Julius AI
+          logo: julius.png
+          url: https://julius.ai/
+          description: AI 数据分析助手
+        - title: ChatBI
+          logo: chatbi.png
+          url: https://chatbi.com/
+          description: AI 智能商业分析
+
+- taxonomy: AI 学习与教育
+  icon: fas fa-graduation-cap fa-lg
+  list:
+    - term: 学习平台
+      links:
+        - title: Khan Academy AI
+          logo: khan.png
+          url: https://www.khanacademy.org/
+          description: Khan Academy 集成 AI 的学习平台
+        - title: Duolingo Max
+          logo: duolingo.png
+          url: https://www.duolingo.com/
+          description: Duolingo 的 AI 个性化学习
+        - title: 国学小助手
+          logo: guoxue.png
+          url: https://guoxue.qq.com/
+          description: 腾讯推出的国学 AI 助手
+    - term: 知识问答
+      links:
+        - title: Perplexity
+          logo: perplexity.png
+          url: https://www.perplexity.ai/
+          description: AI 搜索和知识问答引擎
+        - title: You.com
+          logo: you.png
+          url: https://you.com/
+          description: 隐私保护的 AI 搜索引擎
+        - title: 秘塔搜索
+          logo: metaso.png
+          url: https://metaso.cn/
+          description: 国内 AI 搜索引擎
+
+- taxonomy: AI Agent 与自动化
+  icon: fas fa-robot fa-lg
+  list:
+    - term: AutoGPT
+      links:
+        - title: AutoGPT
+          logo: autogpt.png
+          url: https://news.auto-gpt.net/
+          description: 自主 AI Agent 框架
+        - title: BabyAGI
+          logo: babyagi.png
+          url: https://github.com/yoheinakajima/babyagi
+          description: 任务驱动的 AI Agent
+        - title: AgentGPT
+          logo: agentgpt.png
+          url: https://agentgpt.reworkd.ai/
+          description: 浏览器中运行的 AI Agent
+    - term: 工作流自动化
+      links:
+        - title: Zapier AI
+          logo: zapier.png
+          url: https://zapier.com/
+          description: AI 驱动的工作流自动化
+        - title: Make (Integromat)
+          logo: make.png
+          url: https://www.make.com/
+          description: 可视化自动化工作流
+        - title: coze
+          logo: coze.png
+          url: https://www.coze.cn/
+          description: 字节跳动推出的 AI Bot 平台
+        - title: Dify
+          logo: dify.png
+          url: https://dify.ai/
+          description: 开源 LLM 应用开发平台
+
+- taxonomy: AI 模型训练与部署
+  icon: fas fa-cogs fa-lg
+  list:
+    - term: 云平台
+      links:
+        - title: Hugging Face
+          logo: huggingface.png
+          url: https://huggingface.co/
+          description: AI 模型社区和数据集平台
+        - title: Google Colab
+          logo: colab.png
+          url: https://colab.research.google.com/
+          description: Google 的云端 Jupyter 环境
+        - title: Kaggle
+          logo: kaggle.png
+          url: https://www.kaggle.com/
+          description: 数据科学竞赛和平台
+        - title: 百度千帆
+          logo: qianfan.png
+          url: https://cloud.baidu.com/product/wenxinworkshop
+          description: 百度大模型平台
+        - title: 火山方舟
+          logo: fangzhou.png
+          url: https://www.volcengine.com/product/ark
+          description: 字节跳动大模型平台
+    - term: 模型微调
+      links:
+        - title: LoRA Hub
+          logo: lora.png
+          url: https://huggingface.co/LoRA
+          description: LoRA 微调模型集合
+        - title: PEFT
+          logo: peft.png
+          url: https://github.com/huggingface/peft
+          description: 参数高效微调库
+
+- taxonomy: AI 开发工具
+  icon: fas fa-tools fa-lg
+  list:
+    - term: 开发框架
+      links:
+        - title: LangChain
+          logo: langchain.png
+          url: https://www.langchain.com/
+          description: LLM 应用开发框架
+        - title: LlamaIndex
+          logo: llamaindex.png
+          url: https://www.llamaindex.ai/
+          description: LLM 数据框架
+        - title: Semantic Kernel
+          logo: semantic.png
+          url: https://learn.microsoft.com/en-us/semantic-kernel/
+          description: 微软的 AI 应用开发 SDK
+        - title: PromptFlow
+          logo: promptflow.png
+          url: https://microsoft.github.io/promptflow/
+          description: 微软的提示词工程工具
+    - term: 向量数据库
+      links:
+        - title: Pinecone
+          logo: pinecone.png
+          url: https://www.pinecone.io/
+          description: 托管向量数据库服务
+        - title: Milvus
+          logo: milvus.png
+          url: https://milvus.io/
+          description: 开源向量数据库
+        - title: Weaviate
+          logo: weaviate.png
+          url: https://weaviate.io/
+          description: 开源向量搜索引擎
+
+- taxonomy: AI 行业应用
+  icon: fas fa-industry fa-lg
+  list:
+    - term: 医疗健康
+      links:
+        - title: Med-PaLM
+          logo: medpalm.png
+          url: https://health.google/
+          description: Google 医疗大模型
+        - title: 智慧医疗
+          logo: yidu.png
+          url: https://www.yiducloud.com/
+          description: 医渡云智能医疗平台
+    - term: 金融科技
+      links:
+        - title: BloombergGPT
+          logo: bloomberg.png
+          url: https://www.bloomberg.com/company/bloomberggpt/
+          description: 彭博金融大模型
+        - title: 通义金融
+          logo: tongyijr.png
+          url: https://fintech.aliyun.com/
+          description: 阿里云金融 AI 解决方案
+    - term: 教育科技
+      links:
+        - title: 科大讯飞
+          logo: xunfei.png
+          url: https://www.iflytek.com/
+          description: 科大讯飞 AI 教育
+        - title: 松鼠 AI
+          logo: songshu.png
+          url: https://www.squirrelai.com/
+          description: AI 自适应学习系统
+    - term: 法律科技
+      links:
+        - title: 法信 AI
+          logo: faxin.png
+          url: https://www.faxin.cn/
+          description: 法律智能检索与分析
+
+- taxonomy: AI 资源与社区
+  icon: fas fa-users fa-lg
+  list:
+    - term: 技术社区
+      links:
+        - title: GitHub
+          logo: github.png
+          url: https://github.com/
+          description: 全球最大的开源社区
+        - title: AI Hub
+          logo: aihub.png
+          url: https://ai.googleblog.com/
+          description: Google AI 博客和资源
+        - title: 机器之心
+          logo: jiqizhixin.png
+          url: https://www.jiqizhixin.com/
+          description: AI 媒体和技术社区
+        - title: 新智元
+          logo: xinzhiyuan.png
+          url: https://www.ai-era.net/
+          description: AI 科技媒体
+    - term: 学习资源
+      links:
+        - title: Fast.ai
+          logo: fastai.png
+          url: https://www.fast.ai/
+          description: 深度学习实战课程
+        - title: Coursera AI
+          logo: coursera.png
+          url: https://www.coursera.org/browse/data-science
+          description: AI 在线课程平台
+        - title: 机器学习实战
+          logo: ml.png
+          url: https://www.ml-ai.courses/
+          description: 机器学习实战教程
